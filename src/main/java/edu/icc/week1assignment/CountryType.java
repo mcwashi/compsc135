@@ -14,7 +14,7 @@ public class CountryType {
     private String capital;
     private String country;
     private String continent;
-    private int population;
+    private double population;
     private String language;
 
     /**
@@ -59,17 +59,19 @@ public class CountryType {
         this.continent = continent;
     }
 
+    
+    
     /**
      * @return the population
      */
-    public int getPopulation() {
+    public double getPopulation() {
         return population;
     }
 
     /**
      * @param population the population to set
      */
-    public void setPopulation(int population) {
+    public void setPopulation(double population) {
         this.population = population;
     }
 
@@ -86,6 +88,8 @@ public class CountryType {
     public void setLanguage(String language) {
         this.language = language;
     }
+
+    
     
     
     
